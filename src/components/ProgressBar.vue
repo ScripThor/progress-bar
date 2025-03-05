@@ -105,7 +105,7 @@ const backgroundColor = computed(() => {
 .progress-text {
   font-size: 24px;
   font-weight: bold;
-  fill: #000;
+  fill: #fff;
   user-select: none;
 }
 </style>

@@ -1,0 +1,22 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    height: 100%;
+    min-height: 1000px;
+    background: #1a1a1a;
+}
+
+h1 {
+    color: #fff
+}
+
+a {
+    text-decoration: none;
+    color: #42b883;
+}
+
+nav, div {
+    color: #fff
+}

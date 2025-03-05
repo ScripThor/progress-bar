@@ -11,7 +11,7 @@ const status = ref('in progress');
     <h1>Круговой прогресс-бар</h1>
     <ProgressBar :progress="progress" :status="status" />
 
-    <div>
+    <div class="options">
       <label for="progress">Прогресс:</label>
       <input
         id="progress"
@@ -23,7 +23,7 @@ const status = ref('in progress');
       <span>{{ progress }}%</span>
     </div>
 
-    <div>
+    <div class="options">
       <label for="status">Статус:</label>
       <select id="status" v-model="status">
         <option value="in progress">In Progress</option>
@@ -35,5 +35,8 @@ const status = ref('in progress');
 </template>
 
 <style scoped>
-/* Стили для страницы */
+.options {
+  display: flex;
+  gap: 30px;
+}
 </style>
